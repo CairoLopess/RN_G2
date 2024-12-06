@@ -56,3 +56,5 @@ Esses foram os valores médios:
 Como melhorias, eu poderia ter testado mais parâmetros diferentes. A maior dificuldade foi a normalização dos dados para o treinamento e para a realização do diagnóstico no projeto `main.py`.
 
 Sempre que os resultados do diagnóstico eram retornados, eles apresentavam números nas extremidades, ou muito altos ou muito baixos. Não sei se isso pode ser um erro ou se faz parte do comportamento do modelo.
+
+(Atualização: codigo main.py está com as epochs=1000 na chamada de treino, aconselho mudar para 100, resolve esse 'erro' das extremidades em partes)
